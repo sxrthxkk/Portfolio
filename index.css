@@ -18,19 +18,22 @@ body{
 
 
 }
-#navbar{
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;                 
+    padding: 15px 50px;          
+    background: #F9F9F9;          
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    width: 80%;
-    max-width: 650px;
     align-items: center;
-    margin: 2% auto;
-    position: sticky;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    z-index: 1000;                 
 }
+
 #items{
  display: flex;
  list-style: none;
@@ -50,4 +53,43 @@ body{
     color: #6C63FF; 
     text-decoration: underline;
     
+}
+#display{
+    margin-top: 75px;
+    
+    font-size: 3.5rem;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+#connect{
+    padding-top: 2.5%;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#socials{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+#Home{
+    height: 100vh;
+}
+#ab{
+    font-size: 1.5rem;
+}
+#About{
+    height: 100vh;
+}
+#Skills{
+    height: 100vh;
+}
+#Projects{
+    height: 100vh;
 }
