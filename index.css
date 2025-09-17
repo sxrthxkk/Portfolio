@@ -25,7 +25,8 @@ body{
     top: 0;
     left: 0;
     padding:10px 20px;          
-    background: #F8FAFC;  
+    background: white;
+    opacity: 0.5;  
     display: flex;
     justify-content: center;
     margin: 10px auto;
