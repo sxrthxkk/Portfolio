@@ -26,7 +26,7 @@ body{
     left: 0;
     padding:10px 20px;          
     background: white;
-    opacity: 0.5;  
+    opacity: 0.8;  
     display: flex;
     justify-content: center;
     margin: 10px auto;
@@ -275,4 +275,60 @@ body{
 }
 #project-heading h2{
     font-weight: 100;
+}
+#Contact{
+    padding: 80px 20px;
+    max-height: 100vh;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    color: #2563EB;
+    
+}
+.con-title{
+    font-size: 5rem;
+}
+form {
+    background: #FFFFFF;
+    padding: 30px 25px;
+    border-radius: 12px;
+    
+    max-width: 500px;
+    width: 100%;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #E2E8F0;
+    border-radius: 8px;
+    font-size: 1rem;
+    
+    transition: border 0.3s ease;
+}
+input:focus, textarea:focus {
+    border: 2px solid #2563EB;
+}
+.submitbutton button {
+    background: #2563EB;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    
+    transition: all 0.3s ease;
+}
+
+.submitbutton button:hover {
+    background: #1E40AF;
+    transform: scale(1.05);
 }
