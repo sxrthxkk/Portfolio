@@ -24,7 +24,7 @@ body{
     position: sticky;
     top: 0;
     left: 0;
-    width: 70%;                 
+                   
     padding: 15px 50px;          
     background: #F8FAFC;  
      backdrop-filter: blur(100px);        
@@ -38,6 +38,8 @@ body{
     z-index: 1000;     
     border-radius: 50px;   
     color: #0A192F;
+    flex-wrap: wrap;
+    width: 95%;  
 
          
 }
@@ -47,6 +49,7 @@ body{
  list-style: none;
  gap: 2rem;
  font-weight: 500;
+ flex-wrap: wrap;
 }
 #items li a {
     text-decoration: none;
